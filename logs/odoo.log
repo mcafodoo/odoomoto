@@ -1,0 +1,447 @@
+2024-10-30 14:55:23,523 135730 INFO ? odoo: Odoo version 16.0 
+2024-10-30 14:55:23,523 135730 INFO ? odoo: Using configuration file at /home/icalipusan/odoo-16.0/conf/odoo.conf 
+2024-10-30 14:55:23,523 135730 INFO ? odoo: addons paths: ['/home/icalipusan/odoo-16.0/odoo/odoo/addons', '/home/icalipusan/odoo-16.0/data/addons/16.0', '/home/icalipusan/odoo-16.0/odoo/addons', '/home/icalipusan/odoo-16.0/custom_addons'] 
+2024-10-30 14:55:23,523 135730 INFO ? odoo: database: odoo16@localhost:default 
+2024-10-30 14:55:23,764 135730 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2024-10-30 14:55:24,187 135730 INFO ? odoo.service.server: HTTP service (werkzeug) running on icalipusan.myguest.virtualbox.org:15069 
+2024-10-30 14:55:36,407 135730 INFO odoo16 odoo.modules.loading: loading 1 modules... 
+2024-10-30 14:55:36,461 135730 INFO odoo16 odoo.modules.loading: 1 modules loaded in 0.05s, 0 queries (+0 extra) 
+2024-10-30 14:55:36,499 135730 INFO odoo16 odoo.modules.loading: loading 8 modules... 
+2024-10-30 14:55:36,756 135730 INFO odoo16 odoo.modules.loading: 8 modules loaded in 0.26s, 0 queries (+0 extra) 
+2024-10-30 14:55:36,821 135730 INFO odoo16 odoo.modules.loading: Modules loaded. 
+2024-10-30 14:55:36,848 135730 INFO odoo16 odoo.modules.registry: Registry loaded in 0.627s 
+2024-10-30 14:55:36,856 135730 INFO odoo16 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-10-30 14:55:37,381 135730 INFO odoo16 odoo.addons.base.models.assetsbundle: Failed to find attachment for assets /web/assets/%-03b8234/web.assets_frontend.min.css 
+2024-10-30 14:55:38,403 135730 INFO odoo16 odoo.addons.base.models.assetsbundle: Deleting ir.attachment [15] (from bundle web.assets_frontend) 
+2024-10-30 14:55:38,435 135730 INFO odoo16 odoo.addons.base.models.assetsbundle: Failed to find attachment for assets /web/assets/%-0933ddc/web.assets_frontend_minimal.min.js 
+2024-10-30 14:55:38,458 135730 INFO odoo16 odoo.addons.base.models.assetsbundle: Deleting ir.attachment [16] (from bundle web.assets_frontend_minimal) 
+2024-10-30 14:55:38,519 135730 INFO odoo16 odoo.addons.base.models.assetsbundle: Failed to find attachment for assets /web/assets/%-71dced8/web.assets_frontend_lazy.min.js 
+2024-10-30 14:55:39,516 135730 INFO odoo16 odoo.addons.base.models.assetsbundle: Deleting ir.attachment [17] (from bundle web.assets_frontend_lazy) 
+2024-10-30 14:55:39,520 135730 INFO odoo16 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-10-30 14:55:39,531 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:55:39] "GET /web/login HTTP/1.1" 200 - 105 0.547 2.792
+2024-10-30 14:55:42,430 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:55:42] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 1 0.006 2.550
+2024-10-30 14:55:42,495 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:55:42] "GET /web/binary/company_logo HTTP/1.1" 200 - 8 0.032 2.586
+2024-10-30 14:55:42,500 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:55:42] "GET /web/assets/24-03b8234/web.assets_frontend.min.css HTTP/1.1" 200 - 12 0.058 2.566
+2024-10-30 14:55:42,546 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:55:42] "GET /web/assets/25-0933ddc/web.assets_frontend_minimal.min.js HTTP/1.1" 200 - 9 0.005 0.020
+2024-10-30 14:55:43,306 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:55:43] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 1 0.006 0.026
+2024-10-30 14:55:43,310 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:55:43] "GET /web/assets/26-71dced8/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 9 0.017 0.039
+2024-10-30 14:55:43,853 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:55:43] "GET /web/webclient/translations/1730300143795 HTTP/1.1" 200 - 9 0.013 0.039
+2024-10-30 14:55:43,931 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:55:43] "GET /web/webclient/translations/1730300143891 HTTP/1.1" 200 - 7 0.009 0.021
+2024-10-30 14:56:26,074 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:26] "GET / HTTP/1.1" 303 - 2 0.005 0.013
+2024-10-30 14:56:26,107 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:26] "GET /web HTTP/1.1" 303 - 2 0.005 0.016
+2024-10-30 14:56:26,343 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:26] "GET /web/login HTTP/1.1" 200 - 40 0.063 0.164
+2024-10-30 14:56:26,373 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:26] "GET /web/binary/company_logo HTTP/1.1" 304 - 3 0.002 0.010
+2024-10-30 14:56:26,561 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:26] "GET /web/webclient/translations/1730300186531 HTTP/1.1" 200 - 7 0.007 0.017
+2024-10-30 14:56:26,608 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:26] "GET /web/webclient/translations/1730300186588 HTTP/1.1" 200 - 7 0.004 0.013
+2024-10-30 14:56:30,072 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:30] "GET / HTTP/1.1" 303 - 2 0.002 0.019
+2024-10-30 14:56:30,091 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:30] "GET /web HTTP/1.1" 303 - 2 0.003 0.011
+2024-10-30 14:56:30,130 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:30] "GET /web/login HTTP/1.1" 200 - 5 0.011 0.022
+2024-10-30 14:56:30,166 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:30] "GET /web/binary/company_logo HTTP/1.1" 304 - 3 0.003 0.011
+2024-10-30 14:56:30,348 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:30] "GET /web/webclient/translations/1730300190323 HTTP/1.1" 200 - 7 0.008 0.014
+2024-10-30 14:56:30,385 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:30] "GET /web/webclient/translations/1730300190359 HTTP/1.1" 200 - 7 0.006 0.016
+2024-10-30 14:56:44,751 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:44] "GET / HTTP/1.1" 303 - 2 0.003 0.016
+2024-10-30 14:56:44,780 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:44] "GET /web HTTP/1.1" 303 - 2 0.003 0.016
+2024-10-30 14:56:44,812 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:44] "GET /web/login HTTP/1.1" 200 - 5 0.006 0.021
+2024-10-30 14:56:44,903 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:44] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 1 0.007 0.032
+2024-10-30 14:56:44,907 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:44] "GET /web/binary/company_logo HTTP/1.1" 200 - 3 0.005 0.038
+2024-10-30 14:56:44,918 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:44] "GET /web/assets/24-03b8234/web.assets_frontend.min.css HTTP/1.1" 200 - 9 0.021 0.035
+2024-10-30 14:56:44,957 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:44] "GET /web/assets/25-0933ddc/web.assets_frontend_minimal.min.js HTTP/1.1" 200 - 9 0.006 0.013
+2024-10-30 14:56:45,076 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:45] "GET /web/assets/26-71dced8/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 9 0.008 0.022
+2024-10-30 14:56:45,085 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:45] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 1 0.002 0.015
+2024-10-30 14:56:45,628 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:45] "GET /web/webclient/translations/1730300205302 HTTP/1.1" 200 - 7 0.003 0.018
+2024-10-30 14:56:45,666 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:45] "GET /web/webclient/translations/1730300205639 HTTP/1.1" 200 - 7 0.007 0.016
+2024-10-30 14:56:53,367 135730 INFO odoo16 odoo.addons.base.models.res_users: Login successful for db:odoo16 login:admin from 127.0.0.1 
+2024-10-30 14:56:53,384 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:53] "POST /web/login HTTP/1.1" 303 - 41 0.050 0.527
+2024-10-30 14:56:53,441 135730 INFO odoo16 odoo.addons.base.models.ir_attachment: _read_file reading /home/icalipusan/odoo-16.0/data/filestore/odoo16/a3/a330920abcef2433621d6bb985bc24828d77f77b 
+Traceback (most recent call last):
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/tools/cache.py", line 85, in lookup
+    r = d[key]
+  File "<decorator-gen-8>", line 2, in __getitem__
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+KeyError: ('ir.ui.menu', <function IrUiMenu.load_menus at 0x7f704f5925e0>, 2, '', ('en_US',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/api.py", line 997, in get
+    cache_value = field_cache[record._ids[0]]
+KeyError: 11
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/fields.py", line 1161, in __get__
+    value = env.cache.get(record, self)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/api.py", line 1004, in get
+    raise CacheMiss(record, field)
+odoo.exceptions.CacheMiss: 'ir.attachment(11,).datas'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/api.py", line 997, in get
+    cache_value = field_cache[record._ids[0]]
+KeyError: 11
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/fields.py", line 1161, in __get__
+    value = env.cache.get(record, self)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/api.py", line 1004, in get
+    raise CacheMiss(record, field)
+odoo.exceptions.CacheMiss: 'ir.attachment(11,).raw'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/addons/base/models/ir_attachment.py", line 121, in _file_read
+    with open(full_path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/icalipusan/odoo-16.0/data/filestore/odoo16/a3/a330920abcef2433621d6bb985bc24828d77f77b'
+2024-10-30 14:56:53,454 135730 INFO odoo16 odoo.addons.base.models.ir_attachment: _read_file reading /home/icalipusan/odoo-16.0/data/filestore/odoo16/b8/b8f9001425cfd0ef0315797909281b912817643a 
+Traceback (most recent call last):
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/tools/cache.py", line 85, in lookup
+    r = d[key]
+  File "<decorator-gen-8>", line 2, in __getitem__
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+KeyError: ('ir.ui.menu', <function IrUiMenu.load_menus at 0x7f704f5925e0>, 2, '', ('en_US',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/api.py", line 997, in get
+    cache_value = field_cache[record._ids[0]]
+KeyError: 11
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/fields.py", line 1161, in __get__
+    value = env.cache.get(record, self)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/api.py", line 1004, in get
+    raise CacheMiss(record, field)
+odoo.exceptions.CacheMiss: 'ir.attachment(11,).datas'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/api.py", line 997, in get
+    cache_value = field_cache[record._ids[0]]
+KeyError: 11
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/fields.py", line 1161, in __get__
+    value = env.cache.get(record, self)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/api.py", line 1004, in get
+    raise CacheMiss(record, field)
+odoo.exceptions.CacheMiss: 'ir.attachment(11,).raw'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/addons/base/models/ir_attachment.py", line 121, in _file_read
+    with open(full_path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/icalipusan/odoo-16.0/data/filestore/odoo16/b8/b8f9001425cfd0ef0315797909281b912817643a'
+2024-10-30 14:56:53,601 135730 INFO odoo16 odoo.addons.base.models.assetsbundle: Failed to find attachment for assets /web/assets/%-7923158/web.assets_common.min.css 
+2024-10-30 14:56:53,687 135730 INFO odoo16 odoo.addons.base.models.assetsbundle: Deleting ir.attachment [18] (from bundle web.assets_common) 
+2024-10-30 14:56:53,855 135730 INFO odoo16 odoo.addons.base.models.assetsbundle: Failed to find attachment for assets /web/assets/%-6b4691a/web.assets_backend.min.css 
+2024-10-30 14:56:55,430 135730 INFO odoo16 odoo.addons.base.models.assetsbundle: Deleting ir.attachment [19] (from bundle web.assets_backend) 
+2024-10-30 14:56:55,488 135730 INFO odoo16 odoo.addons.base.models.assetsbundle: Failed to find attachment for assets /web/assets/%-7923158/web.assets_common.min.js 
+2024-10-30 14:56:55,927 135730 INFO odoo16 odoo.addons.base.models.assetsbundle: Deleting ir.attachment [20] (from bundle web.assets_common) 
+2024-10-30 14:56:56,042 135730 INFO odoo16 odoo.addons.base.models.assetsbundle: Failed to find attachment for assets /web/assets/%-6b4691a/web.assets_backend.min.js 
+2024-10-30 14:56:58,259 135730 INFO odoo16 odoo.addons.base.models.assetsbundle: Deleting ir.attachment [21] (from bundle web.assets_backend) 
+2024-10-30 14:56:58,271 135730 INFO odoo16 odoo.addons.base.models.assetsbundle: Failed to find attachment for assets /web/assets/%-d17f00b/web.assets_backend_prod_only.min.js 
+2024-10-30 14:56:58,292 135730 INFO odoo16 odoo.addons.base.models.assetsbundle: Deleting ir.attachment [22] (from bundle web.assets_backend_prod_only) 
+2024-10-30 14:56:58,366 135730 INFO odoo16 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-10-30 14:56:58,369 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:58] "GET /web HTTP/1.1" 200 - 156 0.279 4.702
+2024-10-30 14:56:58,513 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:58] "GET /web/assets/31-d17f00b/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.014 0.070
+2024-10-30 14:56:58,513 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:58] "GET /web/assets/27-7923158/web.assets_common.min.css HTTP/1.1" 200 - 10 0.032 0.058
+2024-10-30 14:56:58,514 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:58] "GET /web/assets/29-7923158/web.assets_common.min.js HTTP/1.1" 200 - 4 0.015 0.073
+2024-10-30 14:56:58,525 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:58] "GET /web/assets/28-6b4691a/web.assets_backend.min.css HTTP/1.1" 200 - 10 0.023 0.072
+2024-10-30 14:56:58,529 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:58] "GET /web/assets/30-6b4691a/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.008 0.089
+2024-10-30 14:56:58,567 135730 INFO odoo16 odoo.addons.base.models.ir_attachment: _read_file reading /home/icalipusan/odoo-16.0/data/filestore/odoo16/a3/a330920abcef2433621d6bb985bc24828d77f77b 
+Traceback (most recent call last):
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/tools/cache.py", line 85, in lookup
+    r = d[key]
+  File "<decorator-gen-8>", line 2, in __getitem__
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+KeyError: ('ir.ui.menu', <function IrUiMenu.load_menus at 0x7f704f5925e0>, 2, '', ('en_US',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/api.py", line 997, in get
+    cache_value = field_cache[record._ids[0]]
+KeyError: 11
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/fields.py", line 1161, in __get__
+    value = env.cache.get(record, self)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/api.py", line 1004, in get
+    raise CacheMiss(record, field)
+odoo.exceptions.CacheMiss: 'ir.attachment(11,).datas'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/api.py", line 997, in get
+    cache_value = field_cache[record._ids[0]]
+KeyError: 11
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/fields.py", line 1161, in __get__
+    value = env.cache.get(record, self)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/api.py", line 1004, in get
+    raise CacheMiss(record, field)
+odoo.exceptions.CacheMiss: 'ir.attachment(11,).raw'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/addons/base/models/ir_attachment.py", line 121, in _file_read
+    with open(full_path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/icalipusan/odoo-16.0/data/filestore/odoo16/a3/a330920abcef2433621d6bb985bc24828d77f77b'
+2024-10-30 14:56:58,567 135730 INFO odoo16 odoo.addons.base.models.ir_attachment: _read_file reading /home/icalipusan/odoo-16.0/data/filestore/odoo16/b8/b8f9001425cfd0ef0315797909281b912817643a 
+Traceback (most recent call last):
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/tools/cache.py", line 85, in lookup
+    r = d[key]
+  File "<decorator-gen-8>", line 2, in __getitem__
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/tools/lru.py", line 34, in __getitem__
+    a = self.d[obj]
+KeyError: ('ir.ui.menu', <function IrUiMenu.load_menus at 0x7f704f5925e0>, 2, '', ('en_US',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/api.py", line 997, in get
+    cache_value = field_cache[record._ids[0]]
+KeyError: 11
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/fields.py", line 1161, in __get__
+    value = env.cache.get(record, self)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/api.py", line 1004, in get
+    raise CacheMiss(record, field)
+odoo.exceptions.CacheMiss: 'ir.attachment(11,).datas'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/api.py", line 997, in get
+    cache_value = field_cache[record._ids[0]]
+KeyError: 11
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/fields.py", line 1161, in __get__
+    value = env.cache.get(record, self)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/api.py", line 1004, in get
+    raise CacheMiss(record, field)
+odoo.exceptions.CacheMiss: 'ir.attachment(11,).raw'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/addons/base/models/ir_attachment.py", line 121, in _file_read
+    with open(full_path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/icalipusan/odoo-16.0/data/filestore/odoo16/b8/b8f9001425cfd0ef0315797909281b912817643a'
+2024-10-30 14:56:58,587 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:58] "GET /web/webclient/load_menus/332ffd705238ca2b9ad6a55bc01bd8f4aa3f712f8ba89511fb4f4a9ef3d60202 HTTP/1.1" 200 - 23 0.061 0.075
+2024-10-30 14:56:58,589 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:58] "GET /web/webclient/translations/65607f58d5469d51a5b051eb66c57db2c3d405a5?lang=en_US HTTP/1.1" 200 - 2 0.003 0.007
+2024-10-30 14:56:59,297 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:59] "GET /web/webclient/locale/en_US HTTP/1.1" 200 - 1 0.001 0.005
+2024-10-30 14:56:59,334 135730 INFO odoo16 odoo.addons.base.models.assetsbundle: Failed to find attachment for assets /web/assets/%-f3f8060/bus.websocket_worker_assets.min.js 
+2024-10-30 14:56:59,374 135730 INFO odoo16 odoo.addons.base.models.assetsbundle: Deleting ir.attachment [23] (from bundle bus.websocket_worker_assets) 
+2024-10-30 14:56:59,381 135730 INFO odoo16 odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-10-30 14:56:59,384 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:59] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 200 - 15 0.030 0.031
+2024-10-30 14:56:59,495 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:59] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 23 0.016 0.029
+2024-10-30 14:56:59,539 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:59] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.004
+2024-10-30 14:56:59,547 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:59] "POST /web/action/load HTTP/1.1" 200 - 12 0.033 0.014
+2024-10-30 14:56:59,656 135730 ERROR odoo16 odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/http.py", line 2064, in __call__
+    response = request._serve_db()
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/http.py", line 1652, in _serve_db
+    return service_model.retrying(self._serve_ir_http, self.env)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/service/model.py", line 133, in retrying
+    result = func()
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/http.py", line 1679, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/http.py", line 1793, in dispatch
+    return self.request.registry['ir.http']._dispatch(endpoint)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/addons/base/models/ir_http.py", line 154, in _dispatch
+    result = endpoint(**request.params)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/http.py", line 734, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+  File "/home/icalipusan/odoo-16.0/odoo/addons/web/controllers/binary.py", line 145, in content_image
+    stream = request.env['ir.binary']._get_image_stream_from(
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/addons/base/models/ir_binary.py", line 202, in _get_image_stream_from
+    stream = self._get_stream_from(
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/addons/base/models/ir_binary.py", line 126, in _get_stream_from
+    stream = self._record_to_stream(record, field_name)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/addons/base/models/ir_binary.py", line 85, in _record_to_stream
+    return Stream.from_attachment(field_attachment)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/http.py", line 489, in from_attachment
+    stat = os.stat(self.path)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/icalipusan/odoo-16.0/data/filestore/odoo16/d0/d09086a0794cf3070f12e742f27126254b4e2b5a'
+2024-10-30 14:56:59,681 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:59] "GET /web/image/res.company/1/favicon HTTP/1.1" 500 - 10 0.028 0.042
+2024-10-30 14:56:59,682 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:59] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.009
+2024-10-30 14:56:59,707 135730 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-10-30 14:56:59,729 135730 ERROR odoo16 odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/http.py", line 2064, in __call__
+    response = request._serve_db()
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/http.py", line 1652, in _serve_db
+    return service_model.retrying(self._serve_ir_http, self.env)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/service/model.py", line 133, in retrying
+    result = func()
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/http.py", line 1679, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/http.py", line 1793, in dispatch
+    return self.request.registry['ir.http']._dispatch(endpoint)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/addons/base/models/ir_http.py", line 154, in _dispatch
+    result = endpoint(**request.params)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/http.py", line 734, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+  File "/home/icalipusan/odoo-16.0/odoo/addons/web/controllers/binary.py", line 145, in content_image
+    stream = request.env['ir.binary']._get_image_stream_from(
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/addons/base/models/ir_binary.py", line 202, in _get_image_stream_from
+    stream = self._get_stream_from(
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/addons/base/models/ir_binary.py", line 126, in _get_stream_from
+    stream = self._record_to_stream(record, field_name)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/addons/base/models/ir_binary.py", line 85, in _record_to_stream
+    return Stream.from_attachment(field_attachment)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/http.py", line 489, in from_attachment
+    stat = os.stat(self.path)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/icalipusan/odoo-16.0/data/filestore/odoo16/d0/d09086a0794cf3070f12e742f27126254b4e2b5a'
+2024-10-30 14:56:59,730 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:59] "GET /web/image/res.company/1/favicon HTTP/1.1" 500 - 4 0.008 0.027
+2024-10-30 14:56:59,773 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:59] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 47 0.098 0.066
+2024-10-30 14:56:59,821 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:59] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.004 0.010
+2024-10-30 14:56:59,844 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:56:59] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 40 0.034 0.015
+2024-10-30 14:57:00,041 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /sale_management/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-10-30 14:57:00,042 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /account/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-10-30 14:57:00,055 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /crm/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.013
+2024-10-30 14:57:00,058 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /website/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-10-30 14:57:00,059 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /base/static/img/icons/mrp_workorder.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-10-30 14:57:00,068 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /stock/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-10-30 14:57:00,089 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /base/static/img/icons/account_accountant.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-10-30 14:57:00,098 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /base/static/img/icons/knowledge.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-10-30 14:57:00,099 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /purchase/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-10-30 14:57:00,140 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.025
+2024-10-30 14:57:00,147 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /website_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-10-30 14:57:00,155 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /project/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.036
+2024-10-30 14:57:00,156 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /mrp/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.010
+2024-10-30 14:57:00,162 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-10-30 14:57:00,162 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.010
+2024-10-30 14:57:00,196 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /hr_expense/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-10-30 14:57:00,205 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /base/static/img/icons/web_studio.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-10-30 14:57:00,208 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-10-30 14:57:00,221 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.012
+2024-10-30 14:57:00,278 135730 ERROR odoo16 odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/http.py", line 2064, in __call__
+    response = request._serve_db()
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/http.py", line 1652, in _serve_db
+    return service_model.retrying(self._serve_ir_http, self.env)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/service/model.py", line 133, in retrying
+    result = func()
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/http.py", line 1679, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/http.py", line 1793, in dispatch
+    return self.request.registry['ir.http']._dispatch(endpoint)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/addons/base/models/ir_http.py", line 154, in _dispatch
+    result = endpoint(**request.params)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/http.py", line 734, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+  File "/home/icalipusan/odoo-16.0/odoo/addons/web/controllers/binary.py", line 145, in content_image
+    stream = request.env['ir.binary']._get_image_stream_from(
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/addons/base/models/ir_binary.py", line 202, in _get_image_stream_from
+    stream = self._get_stream_from(
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/addons/base/models/ir_binary.py", line 126, in _get_stream_from
+    stream = self._record_to_stream(record, field_name)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/addons/base/models/ir_binary.py", line 85, in _record_to_stream
+    return Stream.from_attachment(field_attachment)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/http.py", line 489, in from_attachment
+    stat = os.stat(self.path)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/icalipusan/odoo-16.0/data/filestore/odoo16/d0/d09086a0794cf3070f12e742f27126254b4e2b5a'
+2024-10-30 14:57:00,279 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /web/image/res.company/1/favicon HTTP/1.1" 500 - 4 0.002 0.007
+2024-10-30 14:57:00,283 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /base/static/img/icons/industry_fsm.png HTTP/1.1" 200 - 0 0.000 0.010
+2024-10-30 14:57:00,289 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /hr/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-10-30 14:57:00,295 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /data_recycle/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-10-30 14:57:00,302 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /maintenance/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-10-30 14:57:00,310 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /base/static/img/icons/sign.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-10-30 14:57:00,317 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-10-30 14:57:00,336 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-10-30 14:57:00,341 135730 ERROR odoo16 odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/http.py", line 2064, in __call__
+    response = request._serve_db()
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/http.py", line 1652, in _serve_db
+    return service_model.retrying(self._serve_ir_http, self.env)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/service/model.py", line 133, in retrying
+    result = func()
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/http.py", line 1679, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/http.py", line 1793, in dispatch
+    return self.request.registry['ir.http']._dispatch(endpoint)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/addons/base/models/ir_http.py", line 154, in _dispatch
+    result = endpoint(**request.params)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/http.py", line 734, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+  File "/home/icalipusan/odoo-16.0/odoo/addons/web/controllers/binary.py", line 145, in content_image
+    stream = request.env['ir.binary']._get_image_stream_from(
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/addons/base/models/ir_binary.py", line 202, in _get_image_stream_from
+    stream = self._get_stream_from(
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/addons/base/models/ir_binary.py", line 126, in _get_stream_from
+    stream = self._record_to_stream(record, field_name)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/addons/base/models/ir_binary.py", line 85, in _record_to_stream
+    return Stream.from_attachment(field_attachment)
+  File "/home/icalipusan/odoo-16.0/odoo/odoo/http.py", line 489, in from_attachment
+    stat = os.stat(self.path)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/icalipusan/odoo-16.0/data/filestore/odoo16/d0/d09086a0794cf3070f12e742f27126254b4e2b5a'
+2024-10-30 14:57:00,342 135730 INFO odoo16 werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /web/image/res.company/1/favicon HTTP/1.1" 500 - 4 0.004 0.007
+2024-10-30 14:57:00,351 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-10-30 14:57:00,352 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /website_slides/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-10-30 14:57:00,361 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /base/static/img/icons/planning.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-10-30 14:57:00,364 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /website_event/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-10-30 14:57:00,370 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /contacts/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-10-30 14:57:00,372 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /mail/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.009
+2024-10-30 14:57:00,373 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-10-30 14:57:00,383 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /calendar/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-10-30 14:57:00,388 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /base/static/img/icons/social.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-10-30 14:57:00,392 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-10-30 14:57:00,394 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /fleet/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-10-30 14:57:00,402 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-10-30 14:57:00,405 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /im_livechat/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2024-10-30 14:57:00,419 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /base/static/img/icons/appointment.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-10-30 14:57:00,423 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /survey/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-10-30 14:57:00,429 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /repair/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-10-30 14:57:00,429 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /base/static/img/icons/web_mobile.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-10-30 14:57:00,437 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-10-30 14:57:00,440 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /mass_mailing_sms/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.010
+2024-10-30 14:57:00,445 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-10-30 14:57:00,450 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /note/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-10-30 14:57:00,460 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /hr_skills/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-10-30 14:57:00,463 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /base/static/img/icons/voip.png HTTP/1.1" 200 - 0 0.000 0.004
+2024-10-30 14:57:00,469 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /lunch/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-10-30 14:57:00,472 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2024-10-30 14:57:00,473 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /base/static/img/icons/sale_ebay.png HTTP/1.1" 200 - 0 0.000 0.003
+2024-10-30 14:57:00,476 135730 INFO ? werkzeug: 127.0.0.1 - - [30/Oct/2024 14:57:00] "GET /hr_contract/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
