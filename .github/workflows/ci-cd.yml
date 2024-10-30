@@ -24,12 +24,23 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y python3-pip python3-dev libxml2-dev libxslt1-dev zlib1g-dev libsasl2-dev libldap2-dev build-essential
-          pip install -r requirements.txt  # Update this path if your requirements file is named differently
+          sudo apt-get install -y python3-pip python3-dev libxml2-dev libxslt1-dev zlib1g-dev libsasl2-dev libldap2-dev build-essential \
+          postgresql \
+          && pip install -r requirements.txt  # Update this path if your requirements file is named differently
+
+      - name: Setup PostgreSQL
+        run: |
+          sudo service postgresql start
+          sudo -u postgres psql -c "CREATE DATABASE odoo_db;"
+          sudo -u postgres psql -c "CREATE USER odoo WITH PASSWORD 'your_password';"
+          sudo -u postgres psql -c "ALTER ROLE odoo SET client_encoding TO 'utf8';"
+          sudo -u postgres psql -c "ALTER ROLE odoo SET default_transaction_isolation TO 'read committed';"
+          sudo -u postgres psql -c "ALTER ROLE odoo SET timezone TO 'UTC';"
+          sudo -u postgres psql -c "GRANT ALL PRIVILEGES ON DATABASE odoo_db TO odoo;"
 
       - name: Run Odoo server
         run: |
-          # Ensure that the Odoo server is started here
-          # For example, run a shell script to start Odoo or simply run the odoo-bin command
+          # Start the Odoo server
+          ./odoo-bin -c odoo.conf --dev=all --workers=0 --max-cron-threads=1
 
       # Optional: Add additional steps for testing and deployment
